@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "839813289262",
+    "project_id": "m-live-e8b11",
+    "storage_bucket": "m-live-e8b11.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:839813289262:android:86882b3b1f27372599d6bf",
+        "android_client_info": {
+          "package_name": "com.app.mlive"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "839813289262-8525h2qljoone6p68oafovqshaogrhrr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAJc65HYAspX3xap3Dbm2rsi_GCy3jsjF4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "839813289262-8525h2qljoone6p68oafovqshaogrhrr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/Theme.AppCompat.Light"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFDFD"
+    tools:context=".Songs">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="10dp"
+        android:contentDescription="@string/todo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/premrawat" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/prem_rawat"
+        android:textColor="#090909"
+        android:textColorHint="#0E0E0E"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/imageView2"
+        app:layout_constraintStart_toStartOf="@+id/imageView2"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/album"
+        android:textColor="#035E2C"
+        android:textColorHighlight="#034E22"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="@+id/textView2"
+        app:layout_constraintStart_toStartOf="@+id/textView2"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <Button
+        android:id="@+id/playMusic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:text="@string/play_music"
+        android:textColorHint="#F8F4F4"
+        android:textSize="16sp"
+        app:backgroundTint="#00C853"
+        app:layout_constraintEnd_toEndOf="@+id/textView2"
+        app:layout_constraintStart_toStartOf="@+id/textView2"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/playMusic">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/amiko_semibold"
+                android:gravity="left"
+                android:text="About"
+                android:textColor="#0B0A0A"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#FFFDFD"
+                android:fadeScrollbars="true"
+                android:fontFamily="@font/abhaya_libre"
+                android:gravity="left"
+                android:isScrollContainer="true"
+                android:keepScreenOn="true"
+                android:overScrollMode="always"
+                android:text="Prem Pal Singh Rawat , born 10 December 1957, is an international speaker also known formerly as Maharaji. Rawat's teachings include a meditation practice he calls and quot Knowledge and quot and peace education based on the discovery of personal resources such as inner strength, choice, appreciation and hope  Prem Rawat is the youngest son of Hans Ram Singh Rawat, an Indian guru and the founder of the Divya Sandesh Parishad (later known as Divine Light Mission, or DLM). After his father's death, eight-year-old Prem Rawat assumed his role. At age 13, he traveled to the West and took up residence in the United States. Many young adults took interest in his message and the movement grew by tens of thousands. Many in the news media were perplexed by his youth and claims of divine status, and he was criticized for a lack of intellectual content in his public discourses,[3][4] and for leading an opulent lifestyle.[5][6]  Prem Rawat's marriage at the age of 16 to a non-Indian severed his relationship with his mother. At that point, the Indian branch of DLM controlled by his mother split from DLM everywhere else (at that point it was established in 55 countries). In the early 1980s, he began to discard references to religion in his speeches and closed the ashrams. The name of the DLM was changed to Elan Vital. Since that time, Prem Rawat has continued to travel extensively, speaking about peace to large and select audiences worldwide. On several occasions he has received significant recognition for his work and message of peace.;"
+                android:textColor="#403C3C" />
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,2 @@
+rootProject.name = "M.Live"
+include ':app'
